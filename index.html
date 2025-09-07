@@ -2,12 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Naval Warfare - Singleplayer</title>
+  <title>Naval Warfare 3D</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Naval Warfare - Singleplayer</h1>
-  <canvas id="gameCanvas" width="800" height="600"></canvas>
+  <div id="hud">
+    <span id="gold">Gold: 100</span>
+    <span id="musket-status">Musket: Unequipped</span>
+    <span id="reload-status"></span>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.153.0/build/three.min.js"></script>
   <script src="main.js"></script>
 </body>
 </html>
